@@ -176,6 +176,7 @@ mixpanel.init("a1c979242fe1980bd890dfeb2514df40");</script><!-- end Mixpanel -->
 			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
 			<script src="assets/js/main.js"></script>
             <script>
+                mixpanel.track("landing");
                 $(function() {
                    $("#registerFormBtn").on('click', function() {
                        mixpanel.track("Register Form Button Click");
