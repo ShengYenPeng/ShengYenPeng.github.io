@@ -198,6 +198,11 @@ mixpanel.init("a1c979242fe1980bd890dfeb2514df40");</script><!-- end Mixpanel -->
                        mixpanel.track("Register Form Button Click");
                    });
                 });
+                $(function() {
+                   $("#registerFormBtn2").on('click', function() {
+                       mixpanel.track("Register Form2 Button Click");
+                   });
+                });
                         
             </script>
 
